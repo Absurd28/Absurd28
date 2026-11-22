@@ -4,7 +4,7 @@
 <div align="center">
 
 <a href="https://github.com/Absurd28">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=900&color=7CC4FF&center=true&vCenter=true&width=620&lines=Building+AIRUX%3A+an+OS+with+a+voice+assistant;An+AI+that+says+%22I'm+not+sure%22+instead+of+guessing;Drones+and+robots+in+MuJoCo+%2B+RL;Computer+vision+and+on-device+ML;React+%2B+TypeScript+on+the+side" alt="Typing intro"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=900&color=7CC4FF&center=true&vCenter=true&width=620&lines=Building+AIRUX%3A+an+OS+with+a+voice+assistant;AIROX+Connect%3A+AIRA+on+your+Android+phone;An+AI+that+says+%22I'm+not+sure%22+instead+of+guessing;Drones+and+robots+in+MuJoCo+%2B+RL;Computer+vision+and+on-device+ML;React+%2B+TypeScript+on+the+side" alt="Typing intro"/>
 </a>
 
 <br/>
@@ -22,21 +22,22 @@
 ```python
 class AryanMitra:
     focus    = ["local AI", "robotics simulation", "computer vision", "web"]
-    building = "AIRUX: Debian + AIRA, a fully local voice assistant"
+    building = ["AIRUX: Debian + AIRA, a fully local voice assistant",
+                "AIROX Connect: AIRA and your PC from your Android phone"]
     belief   = "say 'I'm not sure' before making anything up"
-    stack    = ["Python", "TypeScript", "React", "MuJoCo", "OpenCV", "Linux"]
+    stack    = ["Python", "Kotlin", "TypeScript", "React", "MuJoCo", "OpenCV", "Linux"]
 
     def now(self):
-        return "testing AIRUX on real hardware"
+        return "testing AIRUX and AIROX Connect on real hardware"
 ```
 
 ### 🛠️ Tech I build with
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,ts,js,react,tailwind,html,css&theme=dark" alt="Languages and frameworks"/>
+<img src="https://skillicons.dev/icons?i=python,kotlin,ts,js,react,tailwind,html,css&theme=dark" alt="Languages and frameworks"/>
 <br/>
-<img src="https://skillicons.dev/icons?i=linux,debian,bash,git,github,opencv&theme=dark" alt="Systems and tools"/>
+<img src="https://skillicons.dev/icons?i=linux,debian,bash,git,github,androidstudio,opencv&theme=dark" alt="Systems and tools"/>
 
 </div>
 
@@ -45,7 +46,8 @@ class AryanMitra:
 
 | Project | What it is |
 | --- | --- |
-| 🖥️ **[AIRUX_OS](https://github.com/Absurd28/AIRUX_OS)** | A Debian 13 OS with AIRA, a local voice assistant (llama.cpp, whisper.cpp, Kokoro). It has a 9-layer grounding guard, a permission broker, encrypted memory and an installable ISO. |
+| 🖥️ **[AIRUX_OS](https://github.com/Absurd28/AIRUX_OS)** | A Debian 13 OS with AIRA, a local voice assistant (llama.cpp, whisper.cpp, Kokoro). It has a 9-layer grounding guard, a permission broker, encrypted memory and an installable ISO, plus its own NEOX browser with a free VPN, Phagos antivirus (artificial immune system), AIRUX Drivers and a Windows 11-style Task Manager. |
+| 📱 **[AIROX_Connect](https://github.com/Absurd28/AIROX_Connect)** | The Android app for AIRUX (Kotlin, Jetpack Compose): talk to AIRA by voice, see and manage what the PC is running, send files both ways, use the phone as a touchpad or a **second screen**, and approve AIRA's risky actions from your phone. Pinned TLS 1.3, local network only, every action through AIRA's permission broker. |
 | 🚁 **[tri-tiltrotor-vtol](https://github.com/Absurd28/tri-tiltrotor-vtol)** | A tilt-tri-rotor VTOL delivery drone in MuJoCo: physics, a cascaded PID controller for the hover-to-wing transition, PPO residual RL, and a browser ground station. |
 | 🤖 **[Vision_Mate_Reachy_Mini](https://github.com/Absurd28/Vision_Mate_Reachy_Mini)** | Voice-commanded robot manipulation on a Reachy Mini model: OpenCV vision plus a DistilBERT NLP pipeline driving physics-based multi-step tasks. |
 | 🏎️ **[Hand_Gesture_racing_car_game](https://github.com/Absurd28/Hand_Gesture_racing_car_game)** | A browser racing game steered by hand gestures with MediaPipe, running fully on-device. |
